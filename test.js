@@ -2,7 +2,7 @@ var v1 = 13, v2 =15;
 
 console.log(v1+v2);
 
-const axio = require('axios');
+const axios = require('axios');
 
 const fetchWeatherData = async () => {
     const { data } = await axios.get(
